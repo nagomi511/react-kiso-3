@@ -53,7 +53,7 @@ function BookReviewDetail() {
     if (!review) {
         return <p>読み込み中...</p>;
     }
-
+    const user = localStorage.getItem('username') || localStorage.getItem('name') || '';
     const isMe = review.reviewer === user.name
 
     return (
