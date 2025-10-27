@@ -34,7 +34,7 @@ function NewBookReview() {
           },
         }
       );
-      // 登録成功時の処理（例えば成功メッセージの表示やリダイレクトなど）
+   
       navigate('/');
     } catch (err) {
       setError('レビューの登録に失敗しました');
