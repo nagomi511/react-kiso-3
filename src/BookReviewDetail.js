@@ -3,7 +3,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 import axios from 'axios';
 import './BookReviewDetail.css';
 import { Link } from 'react-router-dom';
-//////////////
+
 function BookReviewDetail() {
     const { reviewId } = useParams();
     const [review, setReview] = useState(null);
